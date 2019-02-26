@@ -1,6 +1,10 @@
 body {
     margin: 0 auto;
 }
+@font-face {
+    src: 'Merriweather-bold';
+
+}
 /* HEADER */
 .header {
     background-color: #1a1a1a;
@@ -675,55 +679,49 @@ main {
     justify-content: center;
 }
 .account__sing-in-email-input {
-    background-image: url(../img/Envelope.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    text-align: center;
+    background: url(../img/iconletter.png) no-repeat scroll 19px 13px;
+    padding-left: 50px;
+    text-align: left;
     font-size: 15px;
-    text-decoration: none;
+    text-decoration:none;
+    text-align: left;
     height: 41px;
-    width: 353px;
-    border: solid 0.2px #ebebeb;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
+    width: 347px;
+    border:solid 0.1px #ebebeb;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
     border-radius: 50px;
-    font: 18px Arial,
-        Helvetica,
-        sans-serif;
-    font-weight: bold;
-    color: #b2b2b2;
-    background: #ffffff;
-    -webkit-box-shadow: 0px 0px 2px #bababa,
-        inset 0px 0px 1px #ffffff;
+    font: 15px Arial;
+    color:#b2b2b2;
+    /* background:#ffffff; */
+    -webkit-box-shadow:0px 0px 2px #bababa,
+    inset 0px 0px 1px #ffffff;
     -moz-box-shadow: 0px 0px 2px #bababa,
-        inset 0px 0px 1px #ffffff;
-    box-shadow: 0px 0px 2px #bababa,
-        inset 0px 0px 1px #ffffff;
+    inset 0px 0px 1px #ffffff;
+    box-shadow:0px 0px 2px #bababa,
+    inset 0px 0px 1px #ffffff;
 }
 .account__sing-in-password-input {
-      background-image: url(../img/Envelope.png);
-      background-repeat: no-repeat;
-      background-position: left;
-      text-align: center;
+      background: url(../img/iconpassword.png) no-repeat scroll 19px 13px;
+      padding-left: 50px;
+      text-align: left;
       font-size: 15px;
-      text-decoration: none;
+      text-decoration:none;
+      text-align: left;
       height: 41px;
-      width: 353px;
-      border: solid 0.1px #ebebeb;
-      -webkit-border-radius: 50px;
-      -moz-border-radius: 50px;
+      width: 347px;
+      border:solid 0.1px #ebebeb;
+      -webkit-border-radius:50px;
+      -moz-border-radius:50px;
       border-radius: 50px;
-      font: 18px Arial,
-      Helvetica,
-      sans-serif;
-      font-weight: bold;
-      color: #b2b2b2;
-      background: #ffffff;
-      -webkit-box-shadow: 0px 0px 2px #bababa,
+      font: 15px Arial;
+      color:#b2b2b2;
+      /* background:#ffffff; */
+      -webkit-box-shadow:0px 0px 2px #bababa,
       inset 0px 0px 1px #ffffff;
       -moz-box-shadow: 0px 0px 2px #bababa,
       inset 0px 0px 1px #ffffff;
-      box-shadow: 0px 0px 2px #bababa,
+      box-shadow:0px 0px 2px #bababa,
       inset 0px 0px 1px #ffffff;
 }
 .account__sign-in-password {
@@ -789,3 +787,143 @@ main {
     height: 1px;
     background-color: #e6e6e6;
 }
+
+/* REGISTRATION */ 
+.registration {
+    display: flex;
+    flex-direction: column;
+}
+.registration__title {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+padding-top: 68px;
+}
+.registration-line {
+    border: none;
+    width: 366px;
+    height: 1px;
+    background-color: #e6e6e6;
+}
+.registration__title-text {
+    font-size: 40px;
+    color: #333333;
+    font-family: ;
+}
+.registration__subtitle {
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+}
+.registration__form {
+    padding-top: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+.registration__form-name {
+    
+}
+.registration__form-phone {
+padding-top: 15px;
+}
+.registration__form-email {
+padding-top: 15px;
+}
+.registration__form-password {
+padding-top: 15px;
+}
+.registration__form-name-input {
+    background: url(../img/iconname.png) no-repeat scroll 19px 13px;
+    padding-left: 50px;
+    text-align: left;
+    text-decoration:none;
+    text-align: left;
+    height: 41px;
+    width: 347px;
+    border:solid 0.1px #ebebeb;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius: 50px;
+    font: 15px Arial;
+    color:#b2b2b2;
+    /* background:#ffffff; */
+    -webkit-box-shadow:0px 0px 2px #bababa,
+    inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa,
+    inset 0px 0px 1px #ffffff;
+    box-shadow:0px 0px 2px #bababa,
+    inset 0px 0px 1px #ffffff;
+}
+.registration__form-phone-input {
+    background: url(../img/iconphone.png) no-repeat scroll 19px 13px;
+    padding-left: 50px;
+    text-align: left;
+    font-size: 15px;
+    text-decoration:none;
+    text-align: left;
+    height: 41px;
+    width: 347px;
+    border:solid 0.1px #ebebeb;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius: 50px;
+    font: 15px Arial;
+    color:#b2b2b2;
+    /* background:#ffffff; */
+    -webkit-box-shadow:0px 0px 2px #bababa,
+    inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa,
+    inset 0px 0px 1px #ffffff;
+    box-shadow:0px 0px 2px #bababa,
+    inset 0px 0px 1px #ffffff;
+}
+.registration__form-email-input {
+    background: url(../img/iconletter.png) no-repeat scroll 19px 13px;
+    padding-left: 50px;
+    text-align: left;
+    font-size: 15px;
+    text-decoration:none;
+    text-align: left;
+    height: 41px;
+    width: 347px;
+    border:solid 0.1px #ebebeb;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius: 50px;
+    font: 15px Arial;
+    color:#b2b2b2;
+    /* background:#ffffff; */
+    -webkit-box-shadow:0px 0px 2px #bababa,
+    inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa,
+    inset 0px 0px 1px #ffffff;
+    box-shadow:0px 0px 2px #bababa,
+    inset 0px 0px 1px #ffffff;
+}
+.registration__form-password-input {
+    background: url(../img/iconpassword.png) no-repeat scroll 19px 13px;
+    padding-left: 50px;
+    text-align: left;
+    text-decoration:none;
+    text-align: left;
+    height: 41px;
+    width: 347px;
+    border:solid 0.1px #ebebeb;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius: 50px;
+    font: 15px Arial; 
+    color:#b2b2b2;
+    /* background:#ffffff; */
+    -webkit-box-shadow:0px 0px 2px #bababa,
+    inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa,
+    inset 0px 0px 1px #ffffff;
+    box-shadow:0px 0px 2px #bababa,
+    inset 0px 0px 1px #ffffff;
+}
+input { font-size: 18px; }
